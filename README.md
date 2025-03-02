@@ -8,7 +8,7 @@ Design and Analyze the MOS differential amplifier circuit for the following spec
 - **Power Consumption (P):** ≤2mW  
 - **Common Mode Input Voltage (Vicm):** 1.2V  
 - **Common Mode Output Voltage (Vocm):** 1.25V  
-- **Threshold Voltage (Vp):** 0.4V
+- **Peak Voltage (Vp):** 0.4V
 
 ## Given Circuit
 ![Differential Amplifier Circuit](https://github.com/Sudarshan-R-Srinivas/Experiment_3/blob/main/circuit.png?raw=true)
@@ -110,6 +110,10 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 
 - Analyze **gain and bandwidth performance**.
 
+## Gain
+- Gain = Vout/ Vin
+       = 1.32/ 1.25
+       = 1.056
 ---
 
 # Results
