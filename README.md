@@ -1,14 +1,17 @@
 # Experiment-3: Design and Analysis of a MOS Differential Amplifier
 
-## Objective
-Design and analyze the performance of a MOS differential amplifier based on the provided specifications. Conduct DC analysis, transient analysis, frequency response evaluation, and extract key parameters that define the amplifier's operation.
+## Aim
+Design and Analyze the MOS differential amplifier circuit for the following specifcations and Perform DC analysis,Transient Analysis,Frequency response and extract parmeter.
 
 ## Given Specifications
 - **Supply Voltage (VDD):** 2.2V  
 - **Power Consumption (P):** ≤2mW  
 - **Common Mode Input Voltage (Vicm):** 1.2V  
 - **Common Mode Output Voltage (Vocm):** 1.25V  
-- **Threshold Voltage (Vp):** 0.4V  
+- **Threshold Voltage (Vp):** 0.4V
+
+## Given Circuit
+![Differential Amplifier Circuit][(images/circuit.png)](https://github.com/Sudarshan-R-Srinivas/Experiment_3/blob/main/circuit.png?raw=true)
 
 ## Introduction to MOS Differential Amplifier
 A MOS differential amplifier consists of two MOSFETs (M1 and M2) with their sources connected together. When different input voltages are applied to the gate terminals, the drain currents of M1 and M2 vary accordingly. However, when the same input voltage is applied, both transistors conduct equal currents. This configuration is known as a **common-mode input voltage differential amplifier**.
@@ -22,7 +25,7 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 ## Required Components
 - **MOSFETs:** M1, M2, M3  
 - **Resistors:** Rss, Rd  
-- **Voltage Sources:** VDD, Input signals  
+- **Voltage Sources:** VDD, Input signals(Vicm)  
 
 ## Design Procedure
 1. Construct the circuit with MOSFETs M1 and M2 forming a differential pair.
@@ -57,7 +60,7 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 
 ## Transient Analysis
 - Apply a **180-degree phase shift** to one MOSFET while keeping the other at **0 degrees**.
-- Assign an **AC amplitude of 1** to one input and **0 to the other**.
+- Assign an **AC amplitude of 1** to one input and **0 to the other** (even -1).
 - Run the simulation and analyze the improved transient response.
 
 ## AC Analysis
@@ -87,7 +90,7 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 
 ---
 
-# Results and Observations
+# Results
 
 ## Circuit-1 (Resistor-Based Design)
 ✔ DC analysis confirms **MOSFET operation in saturation** with equal drain currents for identical inputs.  
@@ -107,7 +110,7 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 
 ---
 
-# Conclusion and Key Inferences
+# Inference
 - The **tail current source** significantly impacts the amplifier’s **gain and stability**.  
 - The **resistor-based design** has **lower gain and poor common-mode rejection**.  
 - A **current source bias** enhances **stability and differential operation**.  
