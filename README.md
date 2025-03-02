@@ -53,6 +53,8 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 - Observe the time-domain response of the amplifier.
 
 ## AC Analysis
+![AC Analysis](https://github.com/user-attachments/assets/bd529aab-21d0-42d5-9178-389fb47ed735)
+
 - Perform **AC frequency response analysis** to determine gain and bandwidth.
 
 ---
@@ -77,6 +79,8 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 - Run the simulation and analyze the improved transient response.
 
 ## AC Analysis
+![AC Analysis](https://github.com/user-attachments/assets/4d5c90b7-2a62-4e0c-b1f6-cb5908603cad)
+
 - Perform frequency response analysis to examine **gain and bandwidth**.
 
 ---
@@ -102,10 +106,9 @@ To ensure proper amplification characteristics, the MOSFETs must operate in the 
 - Run the simulation to observe improved transient response.
 
 ## AC Analysis
-- Analyze **gain and bandwidth performance**.
+![AC Analysis](https://github.com/user-attachments/assets/0e12db3d-fc19-4162-95fe-45a61332bc2b)
 
-## DC Sweep Analysis
-- Conduct a **DC sweep** to examine output variations across a range of input conditions.
+- Analyze **gain and bandwidth performance**.
 
 ---
 
